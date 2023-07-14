@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head> 
+    <body>
+       
+<fieldset style="width: 800px; background-color:violet;" >
+    <h1 style="text-align: center;"><u>STUDENT REGISTRATION FORM</u></h1><br>
+    <form>
+        <!-- Form fields -->
+
+        <!-- Personal Information -->
+        <p>
+            FIRST NAME
+            <input type="text" name="FIRST NAME" maxlength="30" />
+            (max 30 characters a-z and A-Z)
+        </p>
+        <p>
+            LAST NAME
+            <input type="text" name="LAST NAME" maxlength="30" />
+            (max 30 characters a-z and A-Z)
+        </p>
+        <p>
+            DATE OF BIRTH
+            <input type="date" />
+        </p>
+        <p>
+            EMAIL ID
+            <input type="email" id="email" placeholder="abc@gmail.com" required />
+        </p>
+        <p>
+            MOBILE NUMBER
+            <input type="tel" id="tel" placeholder="03102656724" required maxlength="11" />
+            (10 digit number)
+        </p>
+        <p>
+            GENDER
+            <input type="radio" name="GENDER" value="Male" />Male
+            <input type="radio" name="GENDER" value="Female" />Female
+        </p>
+        <p>
+            <label for="address">ADDRESS</label>
+            <textarea name="ADDRESS" id="address" cols="30" rows="4" style="vertical-align: top;">Enter your current address</textarea>
+        </p>
+        <p>
+            CITY
+            <input type="text" id="CITY" placeholder="Karachi" maxlength="30" />
+            (max 30 characters a-z and A-Z)
+        </p>
+        <p>
+            PIN CODE
+            <input type="tel" id="pincode" placeholder="3215" maxlength="6" />
+            (6 digit number)
+        </p>
+        <p>
+            STATE
+            <input type="text" name="STATE" maxlength="30" />
+            (max 30 characters a-z and A-Z)
+        </p>
+        <p>
+            COUNTRY
+            <input type="text" name="COUNTRY" placeholder="Pakistan" />
+        </p>
+        <p>
+            HOBBIES
+            <br>
+            <input type="checkbox" value="Drawing">Drawing
+            <input type="checkbox" value="Singing">Singing
+            <input type="checkbox" value="Dancing">Dancing
+            <input type="checkbox" value="Sketching">Sketching
+            <br>
+            <input type="checkbox" value="Others">Others
+            <input type="text" id="Others">
+        </p>
+
+        <!-- Qualifications -->
+        <table>
+            <tr>
+                <td>QUALIFICATION</td>
+                <td>S.NO</td>
+                <td>Examination</td>
+                <td>Board</td>
+                <td>Percentage</td>
+                <td>Year of Passing</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text" placeholder="Matric"></td>
+                <td><input type="text" placeholder="80.9%"></td>
+                <td><input type="text" placeholder="2018"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text" placeholder="Intermediate"></td>
+                <td><input type="text" placeholder="92.00%"></td>
+                <td><input type="text" placeholder="2020"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" placeholder="NED University"></td>
+                <td><input type="text" placeholder="91.70%"></td>
+                <td><input type="text" placeholder="2024"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" placeholder="NED University"></td>
+                <td><input type="text" placeholder="83.29%"></td>
+                <td><input type="text" placeholder="2026"></td>
+            </tr>
+        </table>
+
+        <!-- Course Applied For -->
+        <p>
+            COURSES APPLIED FOR
+            <br>
+            <input type="radio" name="COURSES APPLIED FOR" value="BCA">BCA
+            <input type="radio" name="COURSES APPLIED FOR" value="B.com">B.Com 
+            <input type="radio" name="COURSES APPLIED FOR" value="B.Sc">B.Sc
+            <input type="radio" name="COURSES APPLIED FOR" value="B.A">B.A
+        </p>
+
+        <input type="submit">
+        <input type="reset">
+    </form>
+    </fieldset>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
